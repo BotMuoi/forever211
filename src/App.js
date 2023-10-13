@@ -28,7 +28,7 @@ import Presentation from "layouts/pages/presentation";
 
 // Material Kit 2 React routes
 import routes from "routes";
-
+import { privateRoutes } from "routes";
 export default function App() {
   const { pathname } = useLocation();
 
@@ -58,6 +58,10 @@ export default function App() {
         {getRoutes(routes)}
         <Route path="/presentation" element={<Presentation />} />
         <Route path="*" element={<Navigate to="/presentation" />} />
+        {privateRoutes.map((route) => {
+          const Component = route.component;
+          return <Route key={route.path} path={route.path} element={<Component />} />;
+        })}
       </Routes>
     </ThemeProvider>
   );

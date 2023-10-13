@@ -1,0 +1,286 @@
+{
+  "places": [
+    {
+      "id": "a9d6af90-1f15-4cc5-9955-463fbb48b152",
+      "name": "Paris, France",
+      "description": "The romantic capital known for its iconic Eiffel Tower, Louvre Museum, and charming streets.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691661366/ASM_GD2/download_mmhpyd.jpg",
+      "rating": 4.8,
+      "tags": ["romantic", "art", "history"],
+      "price": 100,
+      "discount": {
+        "percent": 10,
+        "description": "Early Bird Special"
+      },
+      "category_id": "a9d6af90-1f15-4cc5-9955-463fbb48b156"
+    },
+    {
+      "id": "2e5b9181-3473-46a3-97e2-8f4e1360f3e2",
+      "name": "Kyoto, Japan",
+      "description": "A city of traditional temples, tea houses, and beautiful cherry blossoms.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691661477/ASM_GD2/download_qah5ad.jpg",
+      "rating": 4.7,
+      "tags": ["culture", "nature", "relaxing"],
+      "price": 8000,
+      "discount": {
+        "percent": 15,
+        "description": "Spring Sale"
+      },
+      "category_id": "2e5b9181-3473-46a3-97e2-8f4e1360f3e9"
+    },
+    {
+      "id": "83c5468b-7815-4a47-bc03-eaffb248ae92",
+      "name": "New York City, USA",
+      "description": "The bustling metropolis famous for Times Square, Central Park, and the Statue of Liberty.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691661523/ASM_GD2/download_coj7mq.jpg",
+      "rating": 4.9,
+      "tags": ["urban", "entertainment", "diverse"],
+      "price": 150,
+      "discount": {
+        "percent": 5,
+        "description": "Limited Time Offer"
+      },
+      "category_id": "83c5468b-7815-4a47-bc03-eaffb248ae9c"
+    },
+    {
+      "id": "9d0f7ff4-ae16-4cb2-ae24-46dd2664f6a2",
+      "name": "Cape Town, South Africa",
+      "description": "A stunning coastal city with Table Mountain, vibrant neighborhoods, and rich history.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691661694/ASM_GD2/download_xs1cqe.jpg",
+      "rating": 4.6,
+      "tags": ["scenic", "beach", "cultural"],
+      "price": 1200,
+      "discount": {
+        "percent": 20,
+        "description": "Summer Special"
+      },
+      "category_id": "9d0f7ff4-ae16-4cb2-ae24-46dd2664f6ad"
+    },
+    {
+      "id": "6f9ebea2-6d3c-4695-9fc9-456901277912",
+      "name": "Tokyo, Japan",
+      "description": "A bustling modern city with a mix of technology and tradition.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691661807/ASM_GD2/download_bjglaq.jpg",
+      "rating": 4.9,
+      "tags": ["urban", "technology", "culture"],
+      "price": 9000,
+      "discount": {
+        "percent": 12,
+        "description": "Tech Expo Promo"
+      },
+      "category_id": "2e5b9181-3473-46a3-97e2-8f4e1360f3e9"
+    },
+    {
+      "id": "0f162d32-8b48-4ecf-8e20-6e4fead7cc32",
+      "name": "Rome, Italy",
+      "description": "An ancient city known for its Colosseum, Vatican City, and rich history.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691661824/ASM_GD2/download_rxszcj.jpg",
+      "rating": 4.7,
+      "tags": ["history", "architecture", "culture"],
+      "price": 90,
+      "discount": {
+        "percent": 8,
+        "description": "Historical Sites Special"
+      },
+      "category_id": "0f162d32-8b48-4ecf-8e20-6e4fead7cc3e"
+    },
+    {
+      "id": "fd5aa607-4b72-451c-b64a-9ea58b349272",
+      "name": "Rio de Janeiro, Brazil",
+      "description": "A vibrant city known for its Copacabana Beach, Carnival, and lively atmosphere.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691661851/ASM_GD2/download_u5l2oc.jpg",
+      "rating": 4.5,
+      "tags": ["beach", "carnival", "nightlife"],
+      "price": 110,
+      "discount": {
+        "percent": 10,
+        "description": "Carnival Celebration Deal"
+      },
+      "category_id": "fd5aa607-4b72-451c-b64a-9ea58b349276"
+    },
+    {
+      "id": "3f32c236-76f7-4bf5-9f72-cf6dd6ec3a82",
+      "name": "Sydney, Australia",
+      "description": "A stunning city with the Sydney Opera House, beautiful beaches, and vibrant culture.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691661978/ASM_GD2/download_sfd0mq.jpg",
+      "rating": 4.9,
+      "tags": ["urban", "beach", "culture"],
+      "price": 130,
+      "discount": {
+        "percent": 15,
+        "description": "Down Under Special"
+      },
+      "category_id": "3f32c236-76f7-4bf5-9f72-cf6dd6ec3a85"
+    },
+    {
+      "id": "14b493d2-0f5f-4e4b-82e3-97f6b9655152",
+      "name": "Bali, Indonesia",
+      "description": "An exotic island paradise with stunning landscapes, temples, and vibrant nightlife.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691662036/ASM_GD2/download_w0qpof.jpg",
+      "rating": 4.7,
+      "tags": ["beach", "nature", "adventure"],
+      "price": 90,
+      "discount": {
+        "percent": 10,
+        "description": "Island Getaway Deal"
+      },
+      "category_id": "14b493d2-0f5f-4e4b-82e3-97f6b965515a"
+    },
+    {
+      "id": "b6159d65-098e-4eb0-bb0e-887b6f11ab5h",
+      "name": "Cairo, Egypt",
+      "description": "An ancient city with the Pyramids, Sphinx, and rich Egyptian history.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691662061/ASM_GD2/download_kgjkpe.jpg",
+      "rating": 4.6,
+      "tags": ["history", "culture", "adventure"],
+      "price": 80,
+      "discount": {
+        "percent": 10,
+        "description": "Pharaoh's Expedition Promo"
+      },
+      "category_id": "b6159d65-098e-4eb0-bb0e-887b6f11ab52"
+    },
+    {
+      "id": "f3a9e79c-03b7-4826-92fc-6090d5ed70dh",
+      "name": "Santorini, Greece",
+      "description": "A breathtaking island known for its stunning sunsets, white-washed buildings, and crystal-clear waters.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691662084/ASM_GD2/download_nltqd3.jpg",
+      "rating": 4.9,
+      "tags": ["beach", "romantic", "scenic"],
+      "price": 110,
+      "discount": {
+        "percent": 12,
+        "description": "Greek Escape Promo"
+      },
+      "category_id": "f3a9e79c-03b7-4826-92fc-6090d5ed70d2"
+    },
+    {
+      "id": "cb4648d2-ae2a-45d0-88d0-5dbf02e3f862",
+      "name": "Machu Picchu, Peru",
+      "description": "An ancient Incan city nestled high in the Andes mountains, known for its stunning ruins and breathtaking views.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691662111/ASM_GD2/download_jy9llr.jpg",
+      "rating": 4.8,
+      "tags": ["history", "adventure", "scenic"],
+      "price": 120,
+      "discount": {
+        "percent": 10,
+        "description": "Inca Trail Special"
+      },
+      "category_id": "cb4648d2-ae2a-45d0-88d0-5dbf02e3f86e"
+    },
+    {
+      "id": "792c88d2-dfe5-47c6-9ad3-4f175f8c5f62",
+      "name": "Bangkok, Thailand",
+      "description": "A vibrant city known for its bustling street markets, ornate temples, and delicious street food.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691662136/ASM_GD2/download_wwcgho.jpg",
+      "rating": 4.7,
+      "tags": ["urban", "culture", "food"],
+      "price": 75,
+      "discount": {
+        "percent": 8,
+        "description": "Street Food Festival Deal"
+      },
+      "category_id": "792c88d2-dfe5-47c6-9ad3-4f175f8c5f61"
+    },
+    {
+      "id": "23fc75bb-71f2-4b8c-8964-615dd7c31242",
+      "name": "Barcelona, Spain",
+      "description": "A city known for its unique architecture, lively arts scene, and beautiful Mediterranean beaches.",
+      "img": "https://res.cloudinary.com/dqzkwwpfp/image/upload/v1691662167/ASM_GD2/download_pzrdla.jpg",
+      "rating": 4.9,
+      "tags": ["urban", "art", "beach"],
+      "price": 95,
+      "discount": {
+        "percent": 10,
+        "description": "Catalan Culture Promo"
+      },
+      "category_id": "23fc75bb-71f2-4b8c-8964-615dd7c31245"
+    },
+    {
+      "id": "23fc75bb-71f2-4b8c-8964-615dd7c31232",
+      "name": "Barcelona, Spain",
+      "description": "A city known for its unique architecture, lively arts scene, and beautiful Mediterranean beaches.",
+      "img": "https://example.com/barcelona.jpg",
+      "rating": 4.9,
+      "tags": ["urban", "art", "beach"],
+      "price": 95,
+      "discount": {
+        "percent": 10,
+        "description": "Catalan Culture Promo"
+      },
+      "category_id": "23fc75bb-71f2-4b8c-8964-615dd7c31245"
+    },
+    {
+      "id": "23fc75bb-71f2-4b8c-8964-615dd7c31292",
+      "name": "Barcelona, Spain",
+      "description": "A city known for its unique architecture, lively arts scene, and beautiful Mediterranean beaches.",
+      "img": "https://example.com/barcelona.jpg",
+      "rating": 4.9,
+      "tags": ["urban", "art", "beach"],
+      "price": 95,
+      "discount": {
+        "percent": 10,
+        "description": "Catalan Culture Promo"
+      },
+      "category_id": "23fc75bb-71f2-4b8c-8964-615dd7c31245"
+    }
+  ],
+  "categories": [
+    {
+      "id": "a9d6af90-1f15-4cc5-9955-463fbb48b156",
+      "name": "France"
+    },
+    {
+      "id": "2e5b9181-3473-46a3-97e2-8f4e1360f3e9",
+      "name": "Japan"
+    },
+    {
+      "id": "83c5468b-7815-4a47-bc03-eaffb248ae9c",
+      "name": "United States"
+    },
+    {
+      "id": "9d0f7ff4-ae16-4cb2-ae24-46dd2664f6ad",
+      "name": "South Africa"
+    },
+    {
+      "id": "6f9ebea2-6d3c-4695-9fc9-456901277914",
+      "name": "Japan"
+    },
+    {
+      "id": "0f162d32-8b48-4ecf-8e20-6e4fead7cc3e",
+      "name": "Italy"
+    },
+    {
+      "id": "fd5aa607-4b72-451c-b64a-9ea58b349276",
+      "name": "Brazil"
+    },
+    {
+      "id": "3f32c236-76f7-4bf5-9f72-cf6dd6ec3a85",
+      "name": "Australia"
+    },
+    {
+      "id": "14b493d2-0f5f-4e4b-82e3-97f6b965515a",
+      "name": "Indonesia"
+    },
+    {
+      "id": "b6159d65-098e-4eb0-bb0e-887b6f11ab52",
+      "name": "Egypt"
+    },
+    {
+      "id": "f3a9e79c-03b7-4826-92fc-6090d5ed70d2",
+      "name": "Greece"
+    },
+    {
+      "id": "cb4648d2-ae2a-45d0-88d0-5dbf02e3f86e",
+      "name": "Peru"
+    },
+    {
+      "id": "792c88d2-dfe5-47c6-9ad3-4f175f8c5f61",
+      "name": "Thailand"
+    },
+    {
+      "id": "23fc75bb-71f2-4b8c-8964-615dd7c31245",
+      "name": "Spain"
+    }
+  ]
+}

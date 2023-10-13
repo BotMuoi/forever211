@@ -45,7 +45,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
-import Author from "layouts/pages/landing-pages/author";
+import Admin from "layouts/pages/landing-pages/Admin";
 import SignIn from "layouts/pages/authentication/sign-in";
 
 // Sections
@@ -67,6 +67,8 @@ import Dropdowns from "layouts/sections/elements/dropdowns";
 import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
+import Categories from "layouts/pages/landing-pages/Admin/component/Categories";
+import Product from "layouts/pages/landing-pages/Admin/component/Product";
 
 const routes = [
   {
@@ -89,9 +91,9 @@ const routes = [
             component: <ContactUs />,
           },
           {
-            name: "author",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
+            name: "Admin",
+            route: "/pages/landing-pages/admin",
+            component: <Admin />,
           },
         ],
       },
@@ -270,5 +272,18 @@ const routes = [
     href: "https://www.github.com/creativetimofficial/material-kit-react",
   },
 ];
-
+export const privateRoutes = [
+  {
+    path: "/Admin",
+    component: Admin,
+  },
+  {
+    path: "/Admin/Categories",
+    component: Categories,
+  },
+  {
+    path: "/Admin/Product",
+    component: Product,
+  },
+];
 export default routes;
